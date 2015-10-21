@@ -1,0 +1,7 @@
+<!-- 480p下显示-->
+<resources>
+    <!-- 引导页标题栏字号 -->
+    <dimen name="guide_title_size">20sp</dimen>
+    <!-- 引导页标题下面描述字号 -->
+    <dimen name="guide_desc_size">12.5sp</dimen>
+</resources>

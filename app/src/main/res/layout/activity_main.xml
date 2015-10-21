@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="立即体验"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:visibility="gone"
+        android:background="@drawable/sel_guide_go"
+        android:layout_alignParentBottom="true"
+        android:textSize="17sp" />
+
+</RelativeLayout>
